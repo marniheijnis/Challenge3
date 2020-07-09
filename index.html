@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html>
-<link href="mystyles.css" rel="stylesheet">
-<head>
-<meta charset="utf-8">
-	<title>Challenge 3- API</title>
-	<script src="scripts/main.js" defer></script>
-</head>
-<body>
+	<head>
+		<meta charset="utf-8">
+		<title>Challenge3</title>
+	    <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+	    <script src="scripts/main.js" defer></script>
+	    <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+	    <link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+	    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+	    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js"></script>
+        <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css"/>
+	</head>
+	<body>
+	<h1>Welcom on Earth!</h1>
+	<h2>Check the map to see the weather around Arnhem. <br> There is also a real-time ISS location available to stay in the space life mood.</h2>
+	<h2>Map</h2>
+    	<div id="map"></div>
 
-</body>
+   	<h2>Where is the ISS?</h2>
+   	   	<p>
+   		Latitude: <span id="lat"></span> <br/>
+   		Longitude: <span id="lon"></span>
+   	</p>
+   	
+	</body>
 </html>

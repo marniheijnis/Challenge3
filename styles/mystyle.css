@@ -1,0 +1,25 @@
+html {
+	background-image: url('https://i.pinimg.com/originals/a2/75/fb/a275fba20059e521fba9a889a72a5075.jpg');
+}
+body {
+	color: white;
+	font: 20px;
+	text-align: center;
+	font-family: 'Nanum Myeongjo', serif;
+}
+h1 {
+	font-family: 'Merienda One', cursive;
+}
+#map {
+	background-color: white;
+	margin: auto;
+	height: 50vh;
+  	width: 40vw;
+}
+/*#issMap {
+	background-color: white;
+	margin: auto;
+	height: 50vh;
+	width: 40vw;
+}
+*/
